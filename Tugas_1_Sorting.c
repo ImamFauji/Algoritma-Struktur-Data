@@ -14,7 +14,7 @@ void tukar(int *a, int *b)
     *b = sementara;
 }
 
-void input()
+void input() 
 {
     system("cls");
     printf("Masukan jumlah data = ");
@@ -76,7 +76,7 @@ void insertion_sort()
     for(i = 1; i < size; i++)
     {
         temp = array [i];
-        j = 1-1;
+        j = i-1;
         while(array[j] > temp && j >= 0)
         {
             array[j+1] = array [j];
